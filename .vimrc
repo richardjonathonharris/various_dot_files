@@ -9,6 +9,7 @@ syntax enable
 set number
 set showcmd
 set cursorline
+highlight Cursorline cterm=NONE ctermbg=darkblue ctermfg=white
 filetype plugin indent on
 set wildmenu
 set lazyredraw
