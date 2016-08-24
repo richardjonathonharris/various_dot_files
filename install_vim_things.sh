@@ -1,3 +1,6 @@
+cp .tmux.conf ~/.tmux.conf
+cp .vimrc ~/.vimrc
+
 mkdir ~/.vim
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -13,3 +16,7 @@ mkdir ~/.vim/colors
 
 cd ~/.vim/colors && \
     git clone https://github.com/tomasr/molokai
+
+cp ~/.vim/colors/molokai/colors/molokai.vim ~/.vim/colors/molokai.vim
+
+tmux source-file ~/.tmux.conf
