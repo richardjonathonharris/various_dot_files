@@ -14,6 +14,9 @@ cd ~/.vim/bundle && \
 cd ~/.vim/bundle && \
     git clone https://github.com/ctrlpvim/ctrlp.vim
 
+cd ~/.vim/bundle && \
+    git clone https://github.com/plasticboy/vim-markdown.git
+
 mkdir ~/.vim/colors
 
 cd ~/.vim/colors && \
