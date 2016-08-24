@@ -1,5 +1,6 @@
 cp .tmux.conf ~/.tmux.conf
 cp .vimrc ~/.vimrc
+cp .bashrc ~/.bashrc
 
 mkdir ~/.vim
 
@@ -19,4 +20,10 @@ cd ~/.vim/colors && \
 
 cp ~/.vim/colors/molokai/colors/molokai.vim ~/.vim/colors/molokai.vim
 
+mkdir ~/.bash
+
+cd ~/.bash && \
+    git clone git://github.com/jimeh/git-aware-prompt
+
 tmux source-file ~/.tmux.conf
+source ~/.bashrc
