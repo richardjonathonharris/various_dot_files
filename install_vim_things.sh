@@ -1,6 +1,7 @@
 cp .tmux.conf ~/.tmux.conf
 cp .vimrc ~/.vimrc
 cp .bashrc ~/.bashrc
+cp .bash_profile ~/.bash_profile
 
 mkdir ~/.vim
 
