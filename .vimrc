@@ -14,6 +14,7 @@ filetype plugin indent on
 set wildmenu
 set lazyredraw
 set showmatch
+let g:vim_markdown_folding_disabled = 1
 
 set incsearch
 set hlsearch
