@@ -1,6 +1,9 @@
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
 source "${GITAWAREPROMPT}/main.sh"
 
+alias tmux="TERM=screen-256color-bce tmux"
+
+
 grey='\[\033[1;30m\]'
 red='\[\033[0;31m\]'
 RED='\[\033[1;31m\]'
