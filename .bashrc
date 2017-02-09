@@ -20,4 +20,4 @@ cyan='\[\033[0;36m\]'
 CYAN='\[\033[1;36m\]'
 NC='\[\033[0m\]'
 
-export PS1="➡️️  $blue\w $cyan\$git_branch\$git_dirty$NC\\$ \[$(tput sgr0)\]"
+export PS1="$RED → $blue\w $cyan\$git_branch\$git_dirty$NC\\$ \[$(tput sgr0)\]"
