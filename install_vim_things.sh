@@ -29,5 +29,9 @@ mkdir ~/.bash
 cd ~/.bash && \
     git clone git://github.com/jimeh/git-aware-prompt
 
+cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz
+
+cp .slate ~/.slate
+
 tmux source-file ~/.tmux.conf
 source ~/.bashrc
