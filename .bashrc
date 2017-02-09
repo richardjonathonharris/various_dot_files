@@ -3,7 +3,6 @@ source "${GITAWAREPROMPT}/main.sh"
 
 alias tmux="TERM=screen-256color-bce tmux"
 
-
 grey='\[\033[1;30m\]'
 red='\[\033[0;31m\]'
 RED='\[\033[1;31m\]'
@@ -21,4 +20,4 @@ cyan='\[\033[0;36m\]'
 CYAN='\[\033[1;36m\]'
 NC='\[\033[0m\]'
 
-export PS1="$red\u$NC@$blue\h: $green\w $cyan\$git_branch\$git_dirty$NC\\$ \[$(tput sgr0)\]"
+export PS1="➡️️  $blue\w $cyan\$git_branch\$git_dirty$NC\\$ \[$(tput sgr0)\]"
