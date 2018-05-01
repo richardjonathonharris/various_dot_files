@@ -17,6 +17,21 @@ cd ~/.vim/bundle && \
 cd ~/.vim/bundle && \
     git clone https://github.com/plasticboy/vim-markdown.git
 
+cd ~/.vim/bundle && \
+    git clone https://github.com/Yggdroot/indentLine.git
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/rstacruz/vim-closer.git
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/hail2u/vim-css3-syntax.git
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/pangloss/vim-javascript.git
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/mxw/vim-jsx.git
+
 mkdir ~/.vim/colors
 
 cd ~/.vim/colors && \
@@ -28,10 +43,6 @@ mkdir ~/.bash
 
 cd ~/.bash && \
     git clone git://github.com/jimeh/git-aware-prompt
-
-cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz
-
-cp .slate ~/.slate
 
 tmux source-file ~/.tmux.conf
 source ~/.bashrc
