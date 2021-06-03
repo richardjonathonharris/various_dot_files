@@ -36,3 +36,6 @@ cd ~/.vim/colors && \
 
 cp ~/.vim/colors/molokai/colors/molokai.vim ~/.vim/colors/molokai.vim
 
+cp .gitignore-template ~/.gitignore
+
+git config --global core.excludesfile ~/.gitignore
