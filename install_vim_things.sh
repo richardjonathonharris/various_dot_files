@@ -29,6 +29,45 @@ cd ~/.vim/bundle && \
 cd ~/.vim/bundle && \
     git clone https://github.com/mxw/vim-jsx.git
 
+cd ~/.vim/bundle && \
+    git clone https://github.com/FelikZ/ctrlp-py-matcher
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/Shougo/deoplete.nvim
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/preservim/nerdtree
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/Xuyuanp/nerdtree-git-plugin
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/roxma/nvim-yarp
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/vim-airline/vim-airline
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/vim-airline/vim-airline-themes
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/ryanoasis/vim-devicons
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/ludovicchabant/vim-gutentags
+
+cd ~/.vim/bundle && \ 
+    git clone https://github.com/roxma/vim-hug-neovim-rpc
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/tpope/vim-rails
+
+cd ~/.vim/bundle && \
+    git clone https://github.com/vim-ruby/vim-ruby
+
 mkdir ~/.vim/colors
 
 cd ~/.vim/colors && \
