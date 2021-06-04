@@ -1,7 +1,7 @@
 set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set autoindent
 colorscheme molokai
 syntax enable
@@ -82,3 +82,5 @@ let g:syntastic_javascript_checkers=['eslint']
 let g:syntastic_ruby_checkers=['rubocop', 'mri']
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_always_populate_loc_list = 1
+
+set rtp+=/usr/local/opt/fzf
