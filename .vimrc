@@ -44,7 +44,8 @@ autocmd BufEnter * if tabpagenr('$') == 1  && winnr('$') == 1 && exists('b:NERDT
 
 set encoding=UTF-8
 let g:airline_theme='tomorrow'
-set statusline+=%{gutentags#statusline()}
+let g:airline_theme#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 let g:deoplete#enable_at_startup = 1
 call deoplete#custom#option({
@@ -71,3 +72,13 @@ if executable("ag")
     set grepprg=ag\ --nogroup\ --nocolor
     let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --ignore ''.git'' --ignore ''.DS_Store'' --ignore ''node_modules'' --hidden -g ""'
 endif
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_javascript_checkers=['eslint']
+let g:syntastic_ruby_checkers=['rubocop', 'mri']
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_always_populate_loc_list = 1
