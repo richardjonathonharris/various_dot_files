@@ -10,6 +10,10 @@ set listchars=eol:↪
 
 set number relativenumber
 
+set regexpengine=1
+set lazyredraw
+set ttyfast
+
 augroup numbertoggle
     autocmd!
     autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
@@ -30,8 +34,15 @@ set hlsearch
 nnoremap <leader><space> :nohlsearch<CR>
 
 let mapleader=","
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 set backspace=indent,eol,start
+
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+noremap <C-h> <C-w>h
 
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files . -co --exclude-standard', 'find %s -type f']
 execute pathogen#infect()
@@ -63,15 +74,6 @@ inoremap <expr>F    pumvisible() ?
 \ deoplete#insert_candidate(3) : 'F'
 inoremap <expr>G    pumvisible() ?
 \ deoplete#insert_candidate(4) : 'G'
-
-let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
-let g:ctrlp_lazy_update = 350
-let g:ctrlp_clear_chace_on_exit = 0
-let g:ctrlp_max_files = 0
-if executable("ag")
-    set grepprg=ag\ --nogroup\ --nocolor
-    let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --ignore ''.git'' --ignore ''.DS_Store'' --ignore ''node_modules'' --hidden -g ""'
-endif
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1

@@ -9,9 +9,6 @@ cd ~/.vim/bundle && \
     git clone https://github.com/tpope/vim-surround
 
 cd ~/.vim/bundle && \
-    git clone https://github.com/ctrlpvim/ctrlp.vim
-
-cd ~/.vim/bundle && \
     git clone https://github.com/plasticboy/vim-markdown.git
 
 cd ~/.vim/bundle && \
@@ -28,9 +25,6 @@ cd ~/.vim/bundle && \
 
 cd ~/.vim/bundle && \
     git clone https://github.com/mxw/vim-jsx.git
-
-cd ~/.vim/bundle && \
-    git clone https://github.com/FelikZ/ctrlp-py-matcher
 
 cd ~/.vim/bundle && \
     git clone https://github.com/Shougo/deoplete.nvim
@@ -81,3 +75,5 @@ cp ~/.vim/colors/molokai/colors/molokai.vim ~/.vim/colors/molokai.vim
 cp .gitignore-template ~/.gitignore
 
 git config --global core.excludesfile ~/.gitignore
+git config --global user.name "Richard Harris"
+git config --global user.email "richard.jonathon.harris@gmail.com"
