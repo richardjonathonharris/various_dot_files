@@ -65,6 +65,9 @@ cd ~/.vim/bundle && \
 cd ~/.vim/bundle && \
     git clone https://github.com/junegunn/fzf.vim
 
+cd ~/.vim/bundle && \
+    git clone https://github.com/luochen1990/rainbow
+
 mkdir ~/.vim/colors
 
 cd ~/.vim/colors && \
