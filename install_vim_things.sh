@@ -63,6 +63,9 @@ cd ~/.vim/bundle && \
     git clone https://github.com/vim-ruby/vim-ruby
 
 cd ~/.vim/bundle && \
+    git clone https://github.com/junegunn/fzf
+
+cd ~/.vim/bundle && \
     git clone https://github.com/junegunn/fzf.vim
 
 cd ~/.vim/bundle && \
