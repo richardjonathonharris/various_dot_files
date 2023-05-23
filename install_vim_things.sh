@@ -83,3 +83,6 @@ cp .gitignore-template ~/.gitignore
 git config --global core.excludesfile ~/.gitignore
 git config --global user.name "Richard Harris"
 git config --global user.email "richard.jonathon.harris@gmail.com"
+
+pip3 install pynvim
+pip3 install neovim
